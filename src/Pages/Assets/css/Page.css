@@ -1,0 +1,64 @@
+.page-wrapper{
+    display:flex;
+}
+.page-wrapper .chat-list{
+    display:flex;
+    flex-direction:column;
+}
+.accept{
+    background-color:transparent;
+    border:none;
+    width:2rem;
+}
+.accept svg{
+    stroke:var(--sub-heading);
+    fill:var(--sub-heading);
+    width:2rem;
+}
+
+.reject{
+    background-color:transparent;
+    border:none;
+    width:2rem;
+}
+.reject svg{
+    stroke:var(--sub-heading) !important;
+    fill:var(--sub-heading) !important;
+    width:2rem;
+}
+.action{
+    display: flex;
+    flex-direction:row;
+}
+.login{
+    background-color:var(--primary-color)
+}
+.login-google{
+    display:flex;
+    align-items: center;
+    
+    font-weight: 400;
+    font-size: 1rem;
+}
+.login-google svg{
+    width:2rem;
+    margin-right:1rem
+}
+.login-wrapper{
+    background-color:var(--secondary-color);
+    width:15rem;
+    display:flex;
+    justify-content:center;
+    height:20rem;
+    align-items: center;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+.login-header{
+    position: absolute;
+    top:1rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color:var(--white-color);
+    text-decoration: underline;
+}

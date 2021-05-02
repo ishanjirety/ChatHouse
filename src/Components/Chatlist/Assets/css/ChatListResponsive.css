@@ -62,7 +62,7 @@
         right:3rem;
     }
     .logo-header{
-        width:35.4%;
+        width:35.4% !important;
         background-color:var(--secondary-color);
         display:flex;
         justify-content:space-between
@@ -131,5 +131,116 @@
         display:none;
         position: relative;
         z-index: -1;
+    }
+    .chat-area{
+        display:flex;
+        flex-direction: column;
+        font-family: 'Roboto', sans-serif;
+        width:56.5%;
+        padding:0;
+        margin:0;
+        padding-left: 1rem;
+        position:fixed;
+        right:0rem;
+        height:100%;
+    }
+    .profile-bar{
+        display:flex;
+        color:var(--text-color);
+        align-items: center;
+        background-color:var(--secondary-color);
+        width:100%;
+        height:5.1rem;
+        padding:0 1rem;
+        position: relative;
+    }
+    .profile-bar h3{
+        margin:0 1rem;
+        padding:0;
+        font-weight: 400;
+        line-height:1.2rem;
+        letter-spacing:0.4px;
+    }
+    .profile-bar .profile-picture{
+        width:3rem;
+        height:3rem;
+    }
+    .chats{
+        width:100%;
+        height:100%;
+        overflow-y: scroll;
+    }
+    .info{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .chat-action{
+        position: absolute;
+        right:3rem;
+    }
+    .logo-header{
+        width:35.4%;
+        background-color:var(--secondary-color);
+        display:flex;
+        justify-content:space-between
+    }
+    .chat-input{
+        top:5rem;
+        height:4rem;
+        width:100%;
+        background-color:var(--secondary-color);
+        position: relative;
+        top:0;
+        display: flex;
+        align-items: center;
+        padding:0 1rem;
+        border-radius: 5px;
+    }
+    .emoji-picker{
+        background-color: transparent;
+        border:none;
+        padding: 0;
+        border:1px solid var(--sub-heading);
+        border-radius:3px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        padding:0rem;
+        height:2.7rem;
+        width:2.7rem;
+        background-color: var(--secondary-color);
+    }
+    .chat-svg{
+        width:1.7rem;
+        margin:0;
+        padding:0;
+    }
+    .chat-svg *{
+        fill:var(--sub-heading)
+    }
+    .message-holder{
+        margin: 0 0.2rem 0 0.5rem;
+        height:2.7rem;
+        padding:0 1rem;
+        border-radius:3px;
+        border:none;
+        width:80%;
+    }
+    .s-btn{
+        border: none;
+    }
+    .s-btn svg{
+        stroke:var(--text-color) !important;
+    }
+    .message-holder:focus{
+        outline: transparent;
+    }
+    .create-group{
+        background-color:transparent;
+        border:none;
+        display:flex;
+        justify-content:center;
+        align-items: center;
     }
 }

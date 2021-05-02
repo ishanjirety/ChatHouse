@@ -4,3 +4,6 @@ export function setToken(token,email){
 export function getToken(){
     return JSON.parse(localStorage.getItem('token'))
 }
+export function logout(){
+    return localStorage.removeItem('token')
+}

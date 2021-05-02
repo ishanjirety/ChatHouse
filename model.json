@@ -6,7 +6,7 @@
     "avatar" : "",
     "chats" : [
         {
-            "id" : "refference of user id" ,            
+            "id" : "reference of user id" ,            
             "chat" : [                                 
                 {
                     "id" : "UUID",

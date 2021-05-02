@@ -20,7 +20,7 @@
     position: fixed;
     top:0;
     z-index: var(--z-index);
-    width:100%;
+    width:100% !important;
     height:2rem;
     display:flex;
 }
@@ -28,6 +28,7 @@
     width:4rem;
 }
 .profile-list{
+    overflow: hidden;
     overflow-y: scroll;
     background-color:var(--primary-color);
     height:100%;
@@ -37,6 +38,7 @@
     display:flex;
     flex-direction:column;
     align-items: center;
+    
 }
 .wrapper{
     position: fixed;
@@ -54,7 +56,7 @@
     z-index: var(--z-index);
     padding:2rem;
     border-radius: 10px;
-    justify-content:space-evenly
+    justify-content:space-evenly;
 }
 .create-group-modal p{
     margin:1rem 0 0 0;
@@ -81,6 +83,9 @@
     transition: 0.3s ease;
     margin-right: 0.2rem;
 }
+.create-group{
+    margin-right: 2rem;
+}
 .close{
     background-color: var(--primary-color) !important;
 }
@@ -88,5 +93,49 @@
     border:2px solid var(--secondary-color);
 }
 .create-group-modal button:hover{
+    background-color:var(--primary-color);
+}
+.group-icon{
+    color: transparent;
+    display:none;
+}
+.upload{
+    width:7rem;
+    height:7rem;
+    background:white;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0;
+    transform: translateX(3rem);
+    
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+.upload:hover .overlay{
+    display:flex;
+}
+.permission{
+    color:var(--text-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.permission-btn{
+    width:10rem;
+    padding:0.5rem;
+    color:var(--text-color);
+    background-color:transparent;
+    border:2px solid var(--primary-color);
+    transition: 0.3s ease;
+    margin-right: 0.2rem;
+}
+.permission-btn:hover{
     background-color:var(--primary-color);
 }

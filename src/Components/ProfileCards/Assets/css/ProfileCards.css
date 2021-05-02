@@ -9,7 +9,7 @@
     position: relative;
     border-radius: 10px;
     width:92%;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 .profile-picture{
     width:2.9rem;
