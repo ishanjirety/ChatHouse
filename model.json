@@ -1,0 +1,65 @@
+/* Personal chat */
+
+{   
+    "id" : "User ID",
+    "username" : "",
+    "avatar" : "",
+    "chats" : [
+        {
+            "id" : "refference of user id" ,            
+            "chat" : [                                 
+                {
+                    "id" : "UUID",
+                    "sentBy" : "useId",
+                    "message" :"",
+                    "createdAt" : "",
+                    "reactions" : [{
+                        "reactedBy" : "id of user",
+                        "emoji" : ""
+                    }],
+                    "repliedTo" : {
+                        "messageId" : "message ID",
+                        "userId" : "user ID"
+                    },
+                    "seen" : false
+                }
+            ],
+            "theme" : "image url"
+        }
+    ],
+    "activeGroups" : [ "group id" ],
+    "status" : "Online || Offline"
+}
+
+/* Group chat */
+
+{
+    "groupId" : "",
+    "createdAt" : "",
+    "admin" : "User ID",
+    "joinedUsers" : [{
+        "id" : "user Id",
+        "allowedToChat" : false
+    }],
+    "chat" : [{
+        "id" : "UUID",
+        "createdAt": "",
+        "sentBy" : "useId",
+        "reactions" : [{
+            "reactedBy" : "id of user",
+            "emoji" : ""
+        }],
+        "repliedTo" : {
+            "messageId" : "message ID",
+            "userId" : "user ID"
+        }
+    }],
+    "requests" : [ "userId" ],
+    "status" : "public || global"
+}
+
+personal chats
+group chat
+themes 
+user online offline 
+seen

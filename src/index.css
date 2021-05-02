@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600&display=swap');
+:root{
+    /* Hex */
+    --primary-color: #234050;
+    --secondary-color: #2E4D5F;
+    --sender-message-color:#3A90F8;
+    --opposition-message-color:#42708A;
+    --notification-color: #F86262;
+    --white-color: #D7AD87;
+    --text-color:#FBFBFB;
+    --sub-heading:#9B9DAB;
+
+    /* rgba */
+    --notification-color-rgba: rgba(249, 105, 105,1);
+    /* z-index */
+    --z-index : 1;
+    --z-index-2: 2;
+    --z-index-5: 5;
+
+    /* gradient */
+    --primary-gradient: linear-gradient(90deg, rgba(32,36,65,1) 35%, rgba(38,41,72,1) 99%);
+    
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    overflow-y: hidden;
+}
+::-webkit-scrollbar              {
+    background-color: var(--secondary-color);
+    width:3px;
+}
+::-webkit-scrollbar-thumb        { 
+    /* background-color: var(--primary-color); */
+    background-color: #FEF4E8;
+    border-radius: 20px;
+ }
+

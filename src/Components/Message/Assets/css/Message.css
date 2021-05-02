@@ -1,0 +1,34 @@
+.message *{
+    margin:0;
+    padding: 0;
+}
+.message{
+    padding:1rem;
+    display:flex;
+    align-items: flex-start;
+}
+.message div{
+    color:var(--text-color);
+    padding:1.5rem 1rem;
+    border-radius: 1rem; 
+    max-width:40%;
+    height:auto;
+    margin:0 0.5rem;
+    position: relative;
+}
+.message div small{
+    position: absolute;
+    font-size: 0.6rem;
+    color:var(--text-heading);
+    bottom:0.3rem;
+    right: 0.7rem;
+}
+.opposition{
+    background-color: var(--opposition-message-color)
+}
+.sender{
+    background-color:var(--sender-message-color);
+}
+.opposition-message{
+    justify-content: flex-end;
+}

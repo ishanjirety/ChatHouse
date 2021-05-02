@@ -1,0 +1,49 @@
+.nav{
+    height:3.9rem;
+    width:91%;
+    position:fixed;
+    left:0;
+    bottom:0;
+    background-color: var(--primary-color);
+    display:flex;
+    align-items: center;
+    padding:0 1rem;
+    justify-content:space-evenly;
+    z-index: var(--z-index);
+    font-family: 'Roboto', sans-serif;
+}
+.svg{
+    height:2.3rem;
+    width:2.2rem;
+    stroke:var(--white-color)!important;
+    fill: transparent;
+    stroke-width: 1.1px;
+}
+.svg *{
+    stroke:var(--white-color) !important;
+}
+.fill{
+    fill:var(--white-color) !important;
+}
+.nav-link{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+.active-icon{
+    width:0.7rem;
+    height:0.2rem;
+    background-color:var(--notification-color);
+    border-radius:50%;
+}
+.nav-notification{
+    position: absolute;
+    top:-0.2em;
+    right:-0.4rem;
+    width:1.4rem !important;
+    height:1.4rem !important;
+}

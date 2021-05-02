@@ -1,0 +1,52 @@
+.profile-card{
+    display:flex;
+    color: var(--text-color);
+    align-items:center;
+    background-color: var(--secondary-color);
+    font-family: 'Mukta', sans-serif;
+    padding:1rem 1rem;
+    margin-bottom: 0.5rem;
+    position: relative;
+    border-radius: 10px;
+    width:92%;
+    cursor: pointer;
+}
+.profile-picture{
+    width:2.9rem;
+    height:2.9rem;
+    border-radius: 50%;
+}
+.chat-info{
+    margin : 0 3rem 0 1rem;
+}
+.chat-info h3{
+    margin:0;
+    padding:0;
+    font-weight: 400;
+    line-height:1.2rem
+}
+.chat-info small{
+    color: var(--sub-heading);
+}
+.time-stamp{
+    right:2rem;
+    position: absolute;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:4rem;
+    justify-content:space-evenly
+}
+.notification{
+    background-color: var(--notification-color);
+    width:1.5rem;
+    height:1.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+    margin:0;
+    padding:0;
+    font-weight: 500;
+    color:white;
+}   
